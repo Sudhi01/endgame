@@ -1,6 +1,6 @@
 var readlineSync = require('readline-sync');
 var userName = readlineSync.question("can i know your name");
-console.log("welcome" + userName +"do u know tanay" );
+console.log("welcome " + userName +" do u know tanay" );
 var score=0;
 function play(question,answer){
   var takingQuestion = readlineSync.question(question);
